@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.pinterest-post {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-content {
+  padding: 15px;
+}
+
+.description {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+}
+
+.action-icon {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+.action-text {
+  margin-left: 5px;
+}
+
+.action:nth-child(1) {
+  color: #e63946; /* Heart color for likes */
+}
+
+.action:nth-child(2) {
+  color: #007bff; /* Blue color for share */
+}
+
+.action:nth-child(3) {
+  color: #28a745; /* Green color for save */
+}
+
+.action:nth-child(4) {
+  color: #6c757d; /* Gray color for views */
+}
+
+.action:nth-child(5) {
+  color: #ffc107; /* Yellow color for comments */
+}
